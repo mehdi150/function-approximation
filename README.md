@@ -23,9 +23,9 @@ python3 main.py <functionIdentifier> <datasetSizeTrain> <layers> <epoch> <activa
 
     1: <img src="https://render.githubusercontent.com/render/math?math=x^2 - y^2">
 
-    2: <img src="https://render.githubusercontent.com/render/math?math=x.y.exp(-x**2 - y**2)">
+    2: <img src="https://render.githubusercontent.com/render/math?math=x . y . exp(-x^2 - y^2)">
 
-    3: <img src="https://render.githubusercontent.com/render/math?math=exp(-(x - 2)**2 / {2 \over 5})">
+    3: <img src="https://render.githubusercontent.com/render/math?math=exp(-(x - 2)^2 \over {2 / 5})">
 
     4: <img src="https://render.githubusercontent.com/render/math?math=sin(x)">
 
