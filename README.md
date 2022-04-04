@@ -21,11 +21,11 @@ python3 main.py <functionIdentifier> <datasetSizeTrain> <layers> <epoch> <activa
 
 * ```<functionIdentifier>```: The identification number of the funtion to approximate:
 
-    1: $x**2 - y2$
+    1: $x**2 - y^2$
 
     2: `$x.y.exp(-x**2 - y**2)$`
 
-    3: `$exp(-(x - 2)**2 / {2 \over 5})$`
+    3: $exp(-(x - 2)**2 / {2 \over 5})$
 
     4: `$sin(x)$`
 
