@@ -66,16 +66,16 @@ The resulting plots will be :
 
 fp32 model
 
-![High Level](https://github.com/mehdi150/zama_challenge/blob/main/fp32_saddle.png)
+![High Level](https://github.com/mehdi150/zama_challenge/blob/main/fig/fp32_saddle.png)
 
 Quantized model (QAT)
 
-![High Level](https://github.com/mehdi150/zama_challenge/blob/main/int8_saddle.png)
+![High Level](https://github.com/mehdi150/zama_challenge/blob/main/fig/int8_saddle.png)
 
 Quantized model (dynamic)
 
-![High Level](https://github.com/mehdi150/zama_challenge/blob/main/dynamic_saddle.png)
+![High Level](https://github.com/mehdi150/zama_challenge/blob/main/fig/dynamic_saddle.png)
 
 Quantized model (static)
 
-![High Level](https://github.com/mehdi150/zama_challenge/blob/main/static_saddle.png)
+![High Level](https://github.com/mehdi150/zama_challenge/blob/main/fig/static_saddle.png)
