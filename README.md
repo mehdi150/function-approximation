@@ -47,10 +47,18 @@ python3 main.py <functionIdentifier> <datasetSizeTrain> <layers> <epoch> <activa
 
 * `<activation>`: The activation function used in the hidden layers (ex : relu, tanh, sigmoid). it must be implemented in the torch module.
 
+
+Docker
+-------------
+```Bash
+docker image build -t zama .
+docker run -e FUNCTION_NUM=1 -e DATASET_SIZE=10000 -e ENV HIDDEN='8,8,8' -e ENV EPOCHS=200 -e ENV ACTIVATION='relu' test
+```
+
 Example
 -------------
 
-```
+```Bash
 python3 main.py 1 10000 8,8,8 100 relu 
 ```
 
