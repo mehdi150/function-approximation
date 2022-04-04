@@ -52,7 +52,7 @@ Docker
 -------------
 ```Bash
 docker image build -t zama .
-docker run -e FUNCTION_NUM=1 -e DATASET_SIZE=10000 -e ENV HIDDEN='8,8,8' -e ENV EPOCHS=200 -e ENV ACTIVATION='relu' test
+docker run -e FUNCTION_NUM=1 -e DATASET_SIZE=10000 -e ENV HIDDEN='8,8,8' -e ENV EPOCHS=200 -e ENV ACTIVATION='relu' zama
 ```
 
 Example
