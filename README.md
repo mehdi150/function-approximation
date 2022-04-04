@@ -21,13 +21,13 @@ python3 main.py <functionIdentifier> <datasetSizeTrain> <layers> <epoch> <activa
 
 * ```<functionIdentifier>```: The identification number of the funtion to approximate:
 
-    1: x^2-y^2
+    1: $x^2-y^2$
 
-    2: x*y*exp(-x^2-y^2)
+    2: $x.y.exp(-x^2-y^2)$
 
-    3: exp(-(x-2)^2/(2/5))
+    3: $exp(-(x-2)^2/(2/5))$
 
-    4: sin(x)
+    4: $sin(x)$
 
 * ```<fdatasetSizeTrain>```: Size of the training set.
 
@@ -48,16 +48,16 @@ The resulting plots will be :
 
 fp32 model
 
-![High Level](https://raw.githubusercontent.com/mehdi150/zama_challenge/master/fp32_saddle.png)
+![High Level](https://github.com/mehdi150/zama_challenge/blob/main/fp32_saddle.png)
 
 Quantized model (QAT)
 
-![High Level](https://raw.githubusercontent.com/mehdi150/zama_challenge/master/int8_saddle.png)
+![High Level](https://github.com/mehdi150/zama_challenge/blob/main/int8_saddle.png)
 
 Quantized model (dynamic)
 
-![High Level](https://raw.githubusercontent.com/mehdi150/zama_challenge/master/dynamic_saddle.png)
+![High Level](https://github.com/mehdi150/zama_challenge/blob/main/dynamic_saddle.png)
 
 Quantized model (dstatic)
 
-![High Level](https://raw.githubusercontent.com/mehdi150/zama_challenge/master/static_saddle.png)
+![High Level](https://github.com/mehdi150/zama_challenge/blob/main/static_saddle.png)
