@@ -58,6 +58,6 @@ Quantized model (dynamic)
 
 ![High Level](https://github.com/mehdi150/zama_challenge/blob/main/dynamic_saddle.png)
 
-Quantized model (dstatic)
+Quantized model (static)
 
 ![High Level](https://github.com/mehdi150/zama_challenge/blob/main/static_saddle.png)
