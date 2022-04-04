@@ -7,7 +7,7 @@ import torch.nn as nn
 from torch.utils.data import Dataset
 
 
-# Definition of the function that will be approximated
+# Definition of the functions that will be approximated
 functions = {
     1: [lambda x: x[:, 0]**2 - x[:, 1]**2,  # the function
         [-50, 50],  # the interval
