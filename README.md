@@ -1,5 +1,3 @@
-# Zama Challenge
-
 Requirements 
 ------------
 
