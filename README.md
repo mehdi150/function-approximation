@@ -15,14 +15,14 @@ Installation
 ------------
 Clone the repository via git as follows:
 ```
-git clone https://github.com/mehdi150/zama_challenge.git
-cd zama_challenge
+git clone https://github.com/mehdi150/function-approximation.git
+cd function-approximation
 ```
 
 Usage
 -------------
 ```bash
-cd zama_challenge
+cd function-approximation
 
 python3 main.py <functionIdentifier> <datasetSizeTrain> <layers> <epoch> <activation>
 ```
@@ -49,8 +49,8 @@ python3 main.py <functionIdentifier> <datasetSizeTrain> <layers> <epoch> <activa
 Docker
 -------------
 ```Bash
-docker image build -t zama .
-docker run -e FUNCTION_NUM=1 -e DATASET_SIZE=10000 -e HIDDEN='8,8,8' -e EPOCHS=200 -e ACTIVATION='relu' zama
+docker image build -t test .
+docker run -e FUNCTION_NUM=1 -e DATASET_SIZE=10000 -e HIDDEN='8,8,8' -e EPOCHS=200 -e ACTIVATION='relu' test
 ```
 
 Example
@@ -64,16 +64,16 @@ The resulting plots will be :
 
 fp32 model
 
-![High Level](https://github.com/mehdi150/zama_challenge/blob/main/fig/fp32_saddle.png)
+![High Level](https://github.com/mehdi150/function-approximation/blob/main/fig/fp32_saddle.png)
 
 Quantized model (QAT)
 
-![High Level](https://github.com/mehdi150/zama_challenge/blob/main/fig/int8_saddle.png)
+![High Level](https://github.com/mehdi150/function-approximation/blob/main/fig/int8_saddle.png)
 
 Quantized model (dynamic)
 
-![High Level](https://github.com/mehdi150/zama_challenge/blob/main/fig/dynamic_saddle.png)
+![High Level](https://github.com/mehdi150/function-approximation/blob/main/fig/dynamic_saddle.png)
 
 Quantized model (static)
 
-![High Level](https://github.com/mehdi150/zama_challenge/blob/main/fig/static_saddle.png)
+![High Level](https://github.com/mehdi150/function-approximation/blob/main/fig/static_saddle.png)
