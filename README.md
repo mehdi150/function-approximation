@@ -30,6 +30,7 @@ python3 main.py <functionIdentifier> <datasetSizeTrain> <layers> <epoch> <activa
 * `<functionIdentifier>`: The identification number of the funtion to approximate:
 
     1: <img src="https://render.githubusercontent.com/render/math?math=x^2 - y^2">
+    1: $`\sqrt{3}`$
 
     2: <img src="https://render.githubusercontent.com/render/math?math=x . y . exp(-x^2 - y^2)">
 
