@@ -33,7 +33,7 @@ python3 main.py <functionIdentifier> <datasetSizeTrain> <layers> <epoch> <activa
 
     2: $`x . y . exp(-x^2 - y^2)`$
 
-    3: $`exp({-(x - 2)^2}\over{2 / 5})`$
+    3: $`exp({{-(x - 2)^2}\over{2 / 5}})`$
 
     4: $`sin(x)`$
 
